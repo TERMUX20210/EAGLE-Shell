@@ -6,9 +6,9 @@ if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
     cp bash.bashrc $HOME
     cd /data/data/com.termux/files/usr/etc
     rm -rf motd
-    rm -rf bash.bashrc
+    rm -rf bash.bashrc1
     cd $HOME
-    mv bash.bashrc /data/data/com.termux/files/usr/etc
+    mv bash.bashrc1 /data/data/com.termux/files/usr/etc
     echo -e "\e[1;91mInstall Shod dadash"
     echo -e "Restart Termux"
     exit  3
